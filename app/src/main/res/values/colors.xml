@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_100">#892CDC</color>
+    <color name="primary_200">#BC6FF1</color>
+    <color name="primary_300">#fdf6fd</color>
+    <color name="accent_100">#D9ACF5</color>
+    <color name="accent_200">#fff4ff</color>
+    <color name="text_100">#EEEEEE</color>
+    <color name="text_200">#FDEBED</color>
+    <color name="bg_100">#222831</color>
+    <color name="bg_200">#393E46</color>
+    <color name="bg_300">#454e59</color>
+</resources>

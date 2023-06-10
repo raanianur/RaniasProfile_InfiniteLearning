@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profilesFragment">
+
+    <fragment
+        android:id="@+id/profilesFragment"
+        android:name="id.niaradesign.auxiez.ProfilesFragment"
+        android:label="fragment_profiles"
+        tools:layout="@layout/fragment_profiles" />
+    <fragment
+        android:id="@+id/skillsFragment"
+        android:name="id.niaradesign.auxiez.SkillsFragment"
+        android:label="fragment_skills"
+        tools:layout="@layout/fragment_skills" />
+    <fragment
+        android:id="@+id/projectsFragment"
+        android:name="id.niaradesign.auxiez.ProjectsFragment"
+        android:label="fragment_projects"
+        tools:layout="@layout/fragment_projects" />
+    <fragment
+        android:id="@+id/contactsFragment"
+        android:name="id.niaradesign.auxiez.ContactsFragment"
+        android:label="fragment_contacts"
+        tools:layout="@layout/fragment_contacts" />
+</navigation>

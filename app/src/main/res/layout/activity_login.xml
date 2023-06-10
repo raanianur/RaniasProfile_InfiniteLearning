@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_100"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_secondary"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Selamat Datang Kembali!"
+            android:textColor="@color/text_100"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Silahkan Masuk!"
+            android:textColor="@color/text_200"
+            android:textStyle="normal"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="Email"
+            android:textColorHint="@color/primary_200"
+            android:textColor="@color/text_100"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ico_person_outline"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:padding="16dp"
+            />
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="Password"
+            android:textColorHint="@color/primary_200"
+            android:textColor="@color/text_100"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ico_lock_outline"
+            android:drawablePadding="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit"
+            android:padding="16dp"
+            />
+
+        <TextView
+            android:id="@+id/btn_lupapass"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Lupa Password ?"
+            android:textColor="@color/text_100"
+            android:fontFamily="sans-serif-medium"
+            android:layout_gravity="right"
+            android:layout_marginTop="16dp"
+            android:textSize="14sp"
+            android:clickable="true" />
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:text="Masuk"
+            android:textColor="@color/primary_300"
+            android:background="@drawable/button"
+            android:layout_marginTop="48dp"
+            />
+
+        <Button
+            android:id="@+id/btn_logintoregister"
+            android:layout_width="fill_parent"
+            android:layout_height="52dp"
+            android:layout_gravity="center"
+            android:text="Belum memiliki akun ? DAFTAR"
+            android:textColor="@color/primary_300"
+            android:background="#00FFFFFF"
+            android:layout_marginTop="16dp"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

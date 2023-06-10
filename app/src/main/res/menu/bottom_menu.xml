@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profilesFragment"
+        android:icon="@drawable/ico_person_outline"
+        android:title="Profiles" />
+
+    <item
+        android:id="@+id/skillsFragment"
+        android:icon="@drawable/ico_briefcase_outline"
+        android:title="Skills" />
+
+    <item
+        android:id="@+id/projectsFragment"
+        android:icon="@drawable/ico_layers_outline"
+        android:title="Projects" />
+
+    <item
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/ico_book_open_outline"
+        android:title="Contacts" />
+
+</menu>

@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">AUXIEZ</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="skills_name">
+        <item>Project Management</item>
+        <item>Product Management</item>
+        <item>Web Development</item>
+    </string-array>
+
+    <integer-array name="skills_progbar">
+        <item>@drawable/prog_bar_projectmanagement</item>
+        <item>@drawable/prog_bar_productmanagement</item>
+        <item>@drawable/prog_bar_webdev</item>
+    </integer-array>
+
+    <string-array name="skills_desc">
+        <item>Scrum Agile, Scrum Kanban, Sprint review</item>
+        <item>Melakukan research, menyusun PRD, menyusun OKR, Scrum Framework</item>
+        <item>Pemrograman Front End menggunakan HTML, CSS, JavaScript, PHP, dan Bootstrap Framework</item>
+    </string-array>
+
+    <string-array name="projects_name">
+        <item>Aplikasi MyTask</item>
+        <item>Aplikasi BaliGo</item>
+        <item>Website PT. BRT</item>
+    </string-array>
+
+    <string-array name="projects_desc">
+        <item>Aplikasi manajemen tugas dengan pengkategorian jenis tugas</item>
+        <item>Aplikasi manajemen sampah untuk warga kecamatan pangkah, warga dapat menukar sampah dengan bibit tanaman</item>
+        <item>Website profile perusasaan PT. Banyumas Raya Transportasi untuk operasional Bus Trans Banyumas</item>
+    </string-array>
+
+    <integer-array name="contacts_img">
+        <item>@drawable/ico_email_outline</item>
+        <item>@drawable/ico_instagram_filled</item>
+        <item>@drawable/ico_linkedin_fill</item>
+        <item>@drawable/ico_github_fill</item>
+    </integer-array>
+
+    <string-array name="contacts_name">
+        <item>ranianurhikmah020@gmail.com</item>
+        <item>_@rania_nurhikmah</item>
+        <item>rania hikmah</item>
+        <item>raanianur</item>
+    </string-array>
+
+</resources>
